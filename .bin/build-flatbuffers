@@ -1,0 +1,13 @@
+#!/bin/bash
+
+ROOT_DIR=$(pwd)
+
+echo "building flatbuffers..."
+git submodule update --init --recursive
+
+cd ./flatbuffers
+cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release
+cmake . && make clean && make all && make test && make install
+echo $(flatc --version)
+
+cd "$ROOT_DIR"
