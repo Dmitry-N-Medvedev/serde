@@ -1,0 +1,32 @@
+{
+  "name": "serde",
+  "version": "0.0.0",
+  "description": "Cap'n Proto vs Flatbuffers",
+  "engines": {
+    "node": ">=13.6.0",
+    "pnpm": ">=4.7.2"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitry-N-Medvedev/serde.git"
+  },
+  "keywords": [
+    "cap'n'proto",
+    "flatbuffers"
+  ],
+  "author": "Dmitry N. Medvedev <dmitry.medvedev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dmitry-N-Medvedev/serde/issues"
+  },
+  "homepage": "https://github.com/Dmitry-N-Medvedev/serde#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-chai-friendly": "^0.5.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0"
+  }
+}
